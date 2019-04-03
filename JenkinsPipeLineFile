@@ -2,12 +2,12 @@ pipeline {
         agent any
                 stages {
                        stage('Stage_one') {
-                                          step {
+                                          steps {
                                                echo 'inside stage one and step one'
                                                 }
                        }
                        stage('stage_two') {
-                                          step {
+                                          steps {
                                                echo 'inside stage two and step 1'
                                                 }
                        }
