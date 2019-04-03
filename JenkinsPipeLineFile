@@ -1,3 +1,15 @@
 pipeline{
 agent any
+stages {
+   stage('Stage one') {
+      step {
+      echo 'inside stage one and step one'
+      }
+   stage('stage two') {
+      step {
+         echo 'inside stage two and step 1'
+      }
+   }
+
+ }
 }
