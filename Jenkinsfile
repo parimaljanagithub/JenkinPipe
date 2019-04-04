@@ -5,6 +5,10 @@ pipeline {
                                           steps {
                                                echo 'inside stage one and step one'
                                                 }
+                                          steps {
+                                                 echo 'inside stage one step two'
+                                                 } 
+                                        
                        }
                        stage('stage_two') {
                                           steps {
